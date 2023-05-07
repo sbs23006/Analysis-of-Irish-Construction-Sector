@@ -1,0 +1,227 @@
+{
+  "class": "dataset",
+  "dimension": {
+    "STATISTIC": {
+      "category": {
+        "index": [
+          "BBA02"
+        ],
+        "label": {
+          "BBA02": "Annual Average Index of Employment (1975 - Date) in Building and Construction Industry"
+        },
+        "unit": {
+          "BBA02": {
+            "decimals": 1,
+            "label": "Base 2000=100",
+            "position": "end"
+          }
+        }
+      },
+      "label": "Statistic"
+    },
+    "C02196V02652": {
+      "category": {
+        "index": [
+          "-"
+        ],
+        "label": {
+          "-": "State"
+        }
+      },
+      "label": "State"
+    },
+    "TLIST(A1)": {
+      "category": {
+        "index": [
+          "1975",
+          "1976",
+          "1977",
+          "1978",
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ],
+        "label": {
+          "1975": "1975",
+          "1976": "1976",
+          "1977": "1977",
+          "1978": "1978",
+          "1979": "1979",
+          "1980": "1980",
+          "1981": "1981",
+          "1982": "1982",
+          "1983": "1983",
+          "1984": "1984",
+          "1985": "1985",
+          "1986": "1986",
+          "1987": "1987",
+          "1988": "1988",
+          "1989": "1989",
+          "1990": "1990",
+          "1991": "1991",
+          "1992": "1992",
+          "1993": "1993",
+          "1994": "1994",
+          "1995": "1995",
+          "1996": "1996",
+          "1997": "1997",
+          "1998": "1998",
+          "1999": "1999",
+          "2000": "2000",
+          "2001": "2001",
+          "2002": "2002",
+          "2003": "2003",
+          "2004": "2004",
+          "2005": "2005",
+          "2006": "2006",
+          "2007": "2007",
+          "2008": "2008"
+        }
+      },
+      "label": "Year"
+    }
+  },
+  "extension": {
+    "matrix": "BBA02",
+    "language": {
+      "code": "en",
+      "name": "English"
+    },
+    "elimination": {
+      "C02196V02652": null
+    },
+    "contact": {
+      "name": "Shane O’Sullivan",
+      "email": "business_stats@cso.ie",
+      "phone": "(+353) 21 453 5206"
+    },
+    "subject": {
+      "code": 36,
+      "value": "Construction"
+    },
+    "product": {
+      "code": "IEC",
+      "value": "Index of Employment in Construction"
+    },
+    "official": true,
+    "copyright": {
+      "name": "Central Statistics Office, Ireland",
+      "code": "CSO",
+      "href": "https://www.cso.ie/"
+    },
+    "exceptional": false,
+    "reservation": false,
+    "archive": true,
+    "experimental": false,
+    "analytical": false
+  },
+  "href": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BBA02/PX/2013/en",
+  "id": [
+    "STATISTIC",
+    "C02196V02652",
+    "TLIST(A1)"
+  ],
+  "label": "Annual Average Index of Employment (1975 - Date) in Building and Construction Industry",
+  "link": {
+    "alternate": [
+      {
+        "type": "text/csv",
+        "href": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BBA02/CSV/1.0/en"
+      },
+      {
+        "type": "application/json",
+        "href": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BBA02/JSON-stat/2.0/en"
+      },
+      {
+        "type": "application/json",
+        "href": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BBA02/JSON-stat/1.0/en"
+      },
+      {
+        "type": "application/base64",
+        "href": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BBA02/XLSX/2007/en"
+      }
+    ]
+  },
+  "note": [
+    "This series of annual average indices is based on the monthly series of indices which reflect trends shown by a monthly employment sample inquiry covering approximately 1,000 private building and construction firms with 5 or more persons engaged; ie firms classified to division 45 of the NACE Industrial Classification of Economic Activity in the European Communities (NACE REV. 1.1). [url=https://www.cso.ie/surveysandmethodologies/surveys/construction/ind_emp_con.htm] See background notes [/url]",
+    "For more information, please go to the [url=https://www.cso.ie/en/statistics/construction/]statistical release page[/url] on our website."
+  ],
+  "role": {
+    "metric": [
+      "STATISTIC"
+    ],
+    "time": [
+      "TLIST(A1)"
+    ]
+  },
+  "size": [
+    1,
+    1,
+    34
+  ],
+  "updated": "2020-05-15T11:00:00Z",
+  "value": [
+    133.2,
+    128.1,
+    134.8,
+    147.0,
+    158.8,
+    156.1,
+    152.9,
+    135.6,
+    110.7,
+    101.1,
+    87.1,
+    75.7,
+    64.9,
+    60.5,
+    66.7,
+    72.2,
+    69.8,
+    68.4,
+    64.3,
+    65.9,
+    68.8,
+    74.4,
+    81.4,
+    88.5,
+    94.2,
+    100.0,
+    101.7,
+    99.3,
+    99.8,
+    103.2,
+    107.0,
+    109.6,
+    107.5,
+    90.7
+  ],
+  "version": "2.0"
+}
