@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore') # We can suppress the warnings
+from scipy import stats
+import scipy as scipy
 
 def show_outliers(df):
     for i, column in enumerate(df.columns, 1):
@@ -20,7 +22,18 @@ def show_distribution(df):
         g.set(xticklabels=[])
         plt.tight_layout()
     return g
+
+#Shapiro wilk test function
+def shapiro_wilk(data):
+    results = stats.shapiro(data)
+    print(results)
+    if results[1] > 0.05:
+        #normality = 1
+        print("Ho(Accepted): Sample is from a normal distribution.(P>0.05)")
+    else:
+        #normality = 0
+        print("Ha(Rejected): Sample is not from a normal distribution")
         
 
 
-__all__ = ['np', 'plt', 'pd', 'sns','show_outliers', 'show_distribution']
+__all__ = ['np', 'plt', 'pd', 'sns','show_outliers', 'show_distribution', 'shapiro_wilk', 'stats', 'scipy']
